@@ -141,15 +141,49 @@ footer{
   body{
     width:400px;
     height: auto;
+    
 margin: 0;
 overflow-x: hidden;
   }
+  h1{
+    text-align: center;
+  }
   img{
-    width:100px;
-    height: 100px;
+    width:300px;
+    height: 200px;
+    margin-left: -30px;
   }
   .c{
-   width: 300px;
-   overflow: hidden;
+    width:50px;
+    height: 50px;
+  }
+  nav img{
+    width:50pxpx;
+    height: 50px;
+  }
+  .red{
+    width:115px;
+    height: auto;
+  }
+  .red p{
+    width:auto ;
+  }
+  .red h1{
+    width: auto;
+    text-align:left;
+    font-size: 20px;
+  }
+  .f2{
+    padding: 0px;
+    margin: 0;
+  }
+  .ll{
+    display:flex;
+    justify-content: center;
+    margin-left: -50px;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
   }
 }
