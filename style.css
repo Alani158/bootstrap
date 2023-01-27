@@ -1,202 +1,262 @@
 @import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
-        body{
-          font-family: Geo;
-          background-color: #FFFFFF;
-     width:auto;
-        }
-        nav{
-            margin-top: -150px;
-            
-        }
-        nav img{
-            width: 50px;
-        }
-        .n{
-          border: 2px solid white;
-          border-radius:15px ;
-      
-        }
-        .font-sp{
-            font-family: 'Geo';
-font-style: normal;
-font-weight: 500;
-font-size: 40.4143px;
 
-
-color: #000000;
-        } 
-        .font-sp1{
-           padding-left: 15px; 
-font-style: normal;
-font-weight: 500;
-font-size: 17.4484px;
-line-height: 21px;
-
-color: #000000;
-        }
-        .f{
-            margin-left: -130px;
-        }
-        .f1{
-            
-            background-color: white;
-           border:2px solid black;
-            width: 300px;
-            text-align: center;
-           padding-top:10px ;
-           padding-bottom: 10px;
-           box-shadow: 2px 5px 5px black;
-           cursor: pointer;
-        }
-    .top{
-        margin-top: 50px;
-    }
-    .genfont{
-        font-family: 'Geo';
-font-style: normal;
-font-weight: 500;
-    }
-    .l{
-        margin-top: 150px;
-        padding-left: 100px;
-    }
-    .movebox{
-        margin-right: 50px;
-    }
-    .bg-custom{
-       background-color: #F8F8F8;
-    }
-    .w-1{
-       border:3px solid black;
-       margin-right: 15px;
-       
-    }
-   .f2{
-     padding-left: 30px;
-   }
-  .w{
-    width: 150px;
-    height: 50px;
-  }
-  .bweird{
-    border: 1px solid  rgba(255, 232, 24, 0.3);
-  }
-  .free{
-    margin-top: 50px;
-    border: 2px solid white;
-    width: 250px;
-    height: 175px;
-    color: #F8F8F8;
-    margin-left: 30px;
-  }
-  .b{
-    width:100%;
-   border-radius: 10px;
-   height:20rem;
-   justify-items: center;
-  }
-   @media (max-width:200px) {
-    .b{
-     height: 500px ;
-     width:min-content;
-    }
-   }
-
-  .bigger{
-    text-align: center;
-    padding-left:50px ;
-    padding-top:10px ;
-    padding-right:50px ;
-    padding-bottom: 10px;
-  }
-  .bigger2{
-    padding: 10px;
-  }
-.align{
-    display: flex;
-    
+body {
+  font-family: Geo;
+  background-color: #FFFFFF;
+  width: auto;
 }
-footer{
+
+nav {
+  margin-top: -150px;
+
+}
+
+nav img {
+  width: 50px;
+}
+
+.n {
+  border: 2px solid white;
+  border-radius: 15px;
+
+}
+
+.font-sp {
+  font-family: 'Geo';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40.4143px;
+
+
+  color: #000000;
+}
+
+.font-sp1 {
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17.4484px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.f {
+  margin-left: -130px;
+}
+
+.f1 {
+
+  background-color: white;
+  border: 2px solid black;
+  width: 300px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 2px 5px 5px black;
+  cursor: pointer;
+}
+
+.top {
+  margin-top: 50px;
+}
+
+.genfont {
+  font-family: 'Geo';
+  font-style: normal;
+  font-weight: 500;
+}
+
+.l {
+  margin-top: 150px;
+  padding-left: 100px;
+}
+
+.movebox {
+  margin-right: 50px;
+}
+
+.bg-custom {
+  background-color: #F8F8F8;
+}
+
+.w-1 {
+  border: 3px solid black;
+  margin-right: 15px;
+
+}
+
+.f2 {
+  padding-left: 30px;
+}
+
+.w {
+  width: 150px;
+  height: 50px;
+}
+
+.bweird {
+  border: 1px solid rgba(255, 232, 24, 0.3);
+}
+
+.free {
+  margin-top: 50px;
+  border: 2px solid white;
+  width: 250px;
+  height: 175px;
+  color: #F8F8F8;
+  margin-left: 30px;
+}
+
+.b {
+  width: 100%;
+  border-radius: 10px;
+  height: 20rem;
+  justify-items: center;
+}
+
+@media (max-width:200px) {
+  .b {
+    height: 500px;
+    width: min-content;
+  }
+}
+
+.bigger {
+  text-align: center;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+}
+
+.bigger2 {
+  padding: 10px;
+}
+
+.align {
+  display: flex;
+
+}
+
+footer {
   margin-top: 2rem;
- 
+
 }
-.mj{
-  border-right:1px solid black;
+
+.mj {
+  border-right: 1px solid black;
   padding-right: 10px;
   font-weight: 800;
-    padding-left: 5px;
+  padding-left: 5px;
 }
-.mj1{
+
+.mj1 {
 
   padding-right: 10px;
-    font-weight: 800;
-    padding-left: 5px;
-}
-.j{
- Display:flex;
- justify-content:center;
+  font-weight: 800;
+  padding-left: 5px;
 }
 
-@media (max-width:500px){
-  body{
-    width:400px;
+.j {
+  Display: flex;
+  justify-content: center;
+}
+
+@media (max-width:500px) {
+  body {
+    width: 400px;
     height: auto;
-    
-margin: 0;
-overflow-x: hidden;
+
+    margin: 0;
+    overflow-x: hidden;
   }
-  h1{
+
+  h1 {
     text-align: center;
   }
-  img{
-    width:300px;
+
+  img {
+    width: 300px;
     height: 200px;
     margin-left: -30px;
   }
-  .c{
-    width:50px;
+
+  .c {
+    width: 50px;
     height: 50px;
   }
-  nav img{
-    width:50pxpx;
+
+  nav img {
+    width: 50pxpx;
     height: 50px;
   }
-  .red{
-    width:115px;
+
+  .red {
+    width: 115px;
     height: auto;
   }
-  .red p{
-    width:auto ;
-  }
-  .red h1{
+
+  .red p {
     width: auto;
-    text-align:left;
+  }
+
+  .red h1 {
+    width: auto;
+    text-align: left;
     font-size: 20px;
   }
-  .f2{
+
+  .red2 {
+    height: 100px;
+  }
+
+  .f2 {
     padding: 0px;
     margin: 0;
   }
-  .ll{
-    display:flex;
+
+  .ll {
+    display: flex;
     justify-content: center;
-    margin-left: -50px;
+    margin-left: 50px;
   }
-  nav{
+
+  nav {
     display: flex;
     justify-content: center;
   }
-  .T{
-   margin-left: -30px;
+
+  .T {
+    margin-left: -35px;
   }
-  .minT{
+
+  .minT {
     margin-left: -28px;
     font-size: 15px;
   }
-  .minT1{
-    margin-left: -35px;
+
+  .minT1 {
+    margin-left: -50px;
+    font-size: 20px;
   }
-  footer{
-   
+
+  .ch {
+
+    margin-top: -300px;
+  }
+
+  .ch1 {
+    margin-top: 180px;
+  }
+
+  .lk {
+    margin-left: 80px;
+  }
+  .lk2{
+    margin-left: 60px;
+  }
+  .lk1 {
+    margin-left: 70px;
   }
 }
