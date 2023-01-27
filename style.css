@@ -187,6 +187,16 @@ overflow-x: hidden;
     justify-content: center;
   }
   .T{
-   margin-left: -28px;
+   margin-left: -35px;
+  }
+  .minT{
+    margin-left: -28px;
+    font-size: 15px;
+  }
+  .minT1{
+    margin-left: -35px;
+  }
+  footer{
+   
   }
 }
