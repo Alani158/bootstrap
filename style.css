@@ -186,4 +186,7 @@ overflow-x: hidden;
     display: flex;
     justify-content: center;
   }
+  .T{
+   margin-left: -50px;
+  }
 }
