@@ -2,7 +2,7 @@
         body{
           font-family: Geo;
           background-color: #FFFFFF;
-
+     width:auto;
         }
         nav{
             margin-top: -150px;
@@ -10,6 +10,11 @@
         }
         nav img{
             width: 50px;
+        }
+        .n{
+          border: 2px solid white;
+          border-radius:15px ;
+      
         }
         .font-sp{
             font-family: 'Geo';
@@ -130,4 +135,21 @@ footer{
 .j{
  Display:flex;
  justify-content:center;
+}
+
+@media (max-width:500px){
+  body{
+    width:400px;
+    height: auto;
+margin: 0;
+overflow-x: hidden;
+  }
+  img{
+    width:100px;
+    height: 100px;
+  }
+  .c{
+   width: 300px;
+   overflow: hidden;
+  }
 }
